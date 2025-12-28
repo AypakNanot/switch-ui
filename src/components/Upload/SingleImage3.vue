@@ -66,7 +66,6 @@ export default {
       this.emitInput(file.files.file)
     },
     beforeUpload() {
-      const _self = this
       // return new Promise((resolve, reject) => {
       //   getToken().then(response => {
       //     const key = response.data.qiniu_key
@@ -86,7 +85,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "~@/styles/mixin.scss";
+@use "~@/styles/mixin.scss" as *;
 .upload-container {
   width: 100%;
   position: relative;

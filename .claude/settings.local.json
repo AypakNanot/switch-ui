@@ -10,7 +10,10 @@
       "Bash(npm run build:prod:*)",
       "Bash(git add:*)",
       "Bash(git commit:*)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Skill(openspec:proposal)",
+      "Skill(openspec:proposal:*)",
+      "Bash(openspec list:*)"
     ]
   }
 }
